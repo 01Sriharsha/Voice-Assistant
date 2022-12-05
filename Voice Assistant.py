@@ -143,10 +143,6 @@ if __name__ == "__main__":
             codePath = "C:\\Users\\Haris\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(codePath)
 
-        # elif 'open file' in query:
-        #     filePath = "E:\Harsha\Movies\Videos\h.mp4.mp4"
-        #     os.startfile(filePath)
-
         elif 'email' in query:
             try:
                 speak("What should I say?")
